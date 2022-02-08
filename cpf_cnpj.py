@@ -59,4 +59,4 @@ class DocCnpj:
     
     def format_cnpj(self):
         mascara = CNPJ()
-        return mascara.mask(self.cnpj)    
+        return mascara.mask(self.cnpj)   
